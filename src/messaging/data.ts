@@ -1,5 +1,3 @@
-'use strict';
-
 import validator from 'validator';
 
 import db from '../database';
@@ -8,7 +6,7 @@ import utils from '../utils';
 import plugins from '../plugins';
 
 const intFields: string[] = ['timestamp', 'edited', 'fromuid', 'roomId', 'deleted', 'system'];
-//const intFields = ['timestamp', 'edited', 'fromuid', 'roomId', 'deleted', 'system'];
+
 
 
 interface MessagingInfo {
